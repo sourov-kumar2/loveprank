@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .container {
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #ff6b6b;
+    margin-bottom: 30px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .buttons {
+    margin: 20px;
+  }
+  
+  button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #yes-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  #yes-button:hover {
+    transform: scale(1.1);
+  }
+  
+  #no-button {
+    background-color: #f44336;
+    color: white;
+    position: relative;
+  }
+  
+  #message {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff6b6b;
+    display: none; /* Hidden initially */
+    opacity: 0;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+
+  
